@@ -63,6 +63,34 @@ class Configuration
     protected $tempFolderPath;
     protected $timeout = 120;
 
+    public AccountExportApi $accountExport;
+    public AccountExportsApi $accountExports;
+    public ActivityFeedApi $activityFeed;
+    public AuthorizedAppsApi $authorizedApps;
+    public AutomationsApi $automations;
+    public BatchWebhooksApi $batchWebhooks;
+    public BatchesApi $batches;
+    public CampaignFoldersApi $campaignFolders;
+    public CampaignsApi $campaigns;
+    public ConnectedSitesApi $connectedSites;
+    public ConversationsApi $conversations;
+    public CustomerJourneysApi $customerJourneys;
+    public EcommerceApi $ecommerce;
+    public FacebookAdsApi $facebookAds;
+    public FileManagerApi $fileManager;
+    public LandingPagesApi $landingPages;
+    public ListsApi $lists;
+    public PingApi $ping;
+    public ReportingApi $reporting;
+    public ReportsApi $reports;
+    public RootApi $root;
+    public SearchCampaignsApi $searchCampaigns;
+    public SearchMembersApi $searchMembers;
+    public SurveysApi $Surveys;
+    public TemplateFoldersApi $templateFolders;
+    public TemplatesApi $templates;
+    public VerifiedDomainsApi $verifiedDomains;
+
     public function __construct()
     {
         $this->tempFolderPath = sys_get_temp_dir();
@@ -96,12 +124,12 @@ class Configuration
         $this->verifiedDomains = new VerifiedDomainsApi($this);
     }
 
-    public function setConfig($config = array())
+    public function setConfig($config = [])
     {
-        $apiKey = isset($config['apiKey']) ? $config['apiKey'] : '';
-        $accessToken = isset($config['accessToken']) ? $config['accessToken'] : '';
-        $server = isset($config['server']) ? $config['server'] : 'invalid-server';
-        $host = str_replace('server', $server, $this->getHost());
+        $apiKey = $config['apiKey'] ?? '';
+        $accessToken = $config['accessToken'] ?? '';
+        $server = $config['server'] ?? 'invalid-server';
+        $host = str_replace('server', $server, (string) $this->getHost());
 
         // Basic Authentication
         if (!empty($apiKey)) {
@@ -131,7 +159,7 @@ class Configuration
 
     public function getApiKey($apiKeyIdentifier)
     {
-        return isset($this->apiKeys[$apiKeyIdentifier]) ? $this->apiKeys[$apiKeyIdentifier] : null;
+        return $this->apiKeys[$apiKeyIdentifier] ?? null;
     }
 
     public function setApiKeyPrefix($apiKeyIdentifier, $prefix)
@@ -142,7 +170,7 @@ class Configuration
 
     public function getApiKeyPrefix($apiKeyIdentifier)
     {
-        return isset($this->apiKeyPrefixes[$apiKeyIdentifier]) ? $this->apiKeyPrefixes[$apiKeyIdentifier] : null;
+        return $this->apiKeyPrefixes[$apiKeyIdentifier] ?? null;
     }
 
     public function setAccessToken($accessToken)

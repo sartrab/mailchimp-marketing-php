@@ -97,7 +97,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -241,7 +241,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -399,7 +399,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -571,7 +571,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -729,7 +729,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -901,7 +901,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1059,7 +1059,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1217,7 +1217,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1389,7 +1389,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1548,7 +1548,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1733,7 +1733,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1926,7 +1926,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2089,7 +2089,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2260,7 +2260,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2445,7 +2445,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2616,7 +2616,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2775,7 +2775,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2954,7 +2954,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3127,7 +3127,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3302,7 +3302,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3475,7 +3475,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3660,7 +3660,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3847,7 +3847,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4006,7 +4006,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4237,7 +4237,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4410,7 +4410,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4590,7 +4590,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4782,7 +4782,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4967,7 +4967,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5140,7 +5140,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5333,7 +5333,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5520,7 +5520,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5699,7 +5699,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5872,7 +5872,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6057,7 +6057,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6254,7 +6254,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6398,7 +6398,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6542,7 +6542,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6701,7 +6701,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6846,7 +6846,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7005,7 +7005,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7159,7 +7159,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7327,7 +7327,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7509,7 +7509,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7681,7 +7681,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7863,7 +7863,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8031,7 +8031,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8199,7 +8199,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8366,7 +8366,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8533,7 +8533,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8701,7 +8701,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8841,7 +8841,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9003,7 +9003,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9157,7 +9157,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9325,7 +9325,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9482,7 +9482,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9641,7 +9641,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9809,7 +9809,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9963,7 +9963,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -10117,7 +10117,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -10285,7 +10285,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -10453,7 +10453,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -10607,7 +10607,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -10761,7 +10761,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -10964,7 +10964,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -11136,7 +11136,7 @@ class ListsApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 

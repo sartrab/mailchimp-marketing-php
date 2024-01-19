@@ -98,7 +98,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -242,7 +242,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -400,7 +400,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -572,7 +572,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -730,7 +730,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -888,7 +888,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1060,7 +1060,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1218,7 +1218,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1390,7 +1390,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1562,7 +1562,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1734,7 +1734,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -1893,7 +1893,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2066,7 +2066,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2223,7 +2223,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2382,7 +2382,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2553,7 +2553,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2726,7 +2726,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -2911,7 +2911,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3098,7 +3098,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3273,7 +3273,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3446,7 +3446,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3633,7 +3633,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3806,7 +3806,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -3991,7 +3991,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4178,7 +4178,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4349,7 +4349,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4522,7 +4522,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4707,7 +4707,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -4894,7 +4894,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5079,7 +5079,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5266,7 +5266,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5451,7 +5451,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5638,7 +5638,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5809,7 +5809,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -5982,7 +5982,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6136,7 +6136,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6304,7 +6304,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6486,7 +6486,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6654,7 +6654,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -6822,7 +6822,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7004,7 +7004,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7172,7 +7172,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7354,7 +7354,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7536,7 +7536,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7718,7 +7718,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -7886,7 +7886,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8026,7 +8026,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8180,7 +8180,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8348,7 +8348,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8502,7 +8502,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8656,7 +8656,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8824,7 +8824,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -8978,7 +8978,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9146,7 +9146,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9314,7 +9314,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9482,7 +9482,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9636,7 +9636,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
@@ -9804,7 +9804,7 @@ class EcommerceApi
 
             $responseBody = $response->getBody();
             $content = $responseBody->getContents();
-            $content = json_decode($content);
+            $content = json_decode((string) $content);
 
             return $content;
 
