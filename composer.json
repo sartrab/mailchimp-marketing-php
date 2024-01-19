@@ -1,6 +1,6 @@
 {
-    "name": "mailchimp/marketing",
-    "version": "3.0.80",
+    "name": "sartrab/mailchimp-marketing",
+    "version": "3.1.0",
     "description": "",
     "keywords": [
         "swagger",
